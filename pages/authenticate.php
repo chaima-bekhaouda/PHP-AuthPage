@@ -39,11 +39,11 @@ if (isset($_POST['email'], $_POST['password'])) {
         <?php echo $message; ?>
     </p>
     <div class="navigation">
-        <a href="../views/index.php" class="btn">Home</a>
+        <a href="../pages/index.php" class="btn">Home</a>
         <?php if ($messageClass == "success"): ?>
-            <a href="../views/register.php" class="btn">Register</a>
+            <a href="../pages/register.php" class="btn">Register</a>
         <?php else: ?>
-            <a href="../views/login.php" class="btn">Retry</a>
+            <a href="../pages/login.php" class="btn">Retry</a>
         <?php endif; ?>
     </div>
 </div>
