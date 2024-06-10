@@ -13,7 +13,7 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['password']) 
             $servername = "localhost";
             $username = "root";
             $password_db = "";
-            $dbname = "mywebsite";
+            $dbname = "Authentication";
 
             try {
                 $bdd = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password_db);
